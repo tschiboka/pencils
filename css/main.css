@@ -1,0 +1,12 @@
+body {
+  background: #c8c8ff;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+/*# sourceMappingURL=main.css.map */

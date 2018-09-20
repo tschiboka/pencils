@@ -1,0 +1,19 @@
+$colors: (
+    bg:  #c8c8ff,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+body {
+    background: color(bg);
+    height: 100%;
+    width: 100%;
+}
+
+#container {    
+    display: block;
+    margin: auto;
+    margin-top: 5%;     
+}
